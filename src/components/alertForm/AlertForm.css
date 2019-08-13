@@ -1,0 +1,17 @@
+#alert-form-card {
+  width: 40%;
+  height: fit-content;
+  margin-left: 10px;
+}
+
+.alert-form-row {
+  margin-bottom: 10px;
+}
+
+.alert-form-row>p {
+  margin: 0;
+}
+
+#alert-form-frequency-select {
+  width: 40%;
+}

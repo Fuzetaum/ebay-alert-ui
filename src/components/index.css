@@ -1,12 +1,17 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #header {
   background-color: silver;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2em;
   font-weight: bold;
   text-align: center;
 }
 
 #content {
+  display: flex;
+  justify-content: space-between;
   margin: 20px;
 }
 

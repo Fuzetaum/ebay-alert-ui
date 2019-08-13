@@ -1,0 +1,17 @@
+.alert-list-item {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-around;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 5px;
+  padding: 3px 10px;
+}
+
+.alert-list-item:hover {
+  background-color: #F3F3F3;
+}
+
+.alert-list-item-selected {
+  background-color: #F3F3F3;
+}

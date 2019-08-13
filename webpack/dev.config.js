@@ -1,5 +1,4 @@
 const path = require('path');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -59,9 +58,5 @@ module.exports = {
       template: path.resolve('./', 'public/index.html'),
       filename: 'index.html',
     }),
-    new CopyWebpackPlugin([{
-      from: path.resolve(__dirname, '../config.js'),
-      to: 'config.js'
-    }]),
   ],
 };
